@@ -7438,6 +7438,7 @@ General-purpose diode for high-speed switching</description>
 <sheet>
 <plain>
 <text x="-35.56" y="152.4" size="1.778" layer="97">RG2012P-122-B-T5</text>
+<text x="-78.74" y="73.66" size="1.778" layer="97">10.34V/A</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="132.08" y="33.02"/>

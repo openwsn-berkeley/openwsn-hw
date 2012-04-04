@@ -1,0 +1,12 @@
+
+Cannot use DAC module w/ comparator.
+    Fix:
+       * Swap RA0 and RA3 so that C1INB is used instead of C1INA
+    Workaround:
+       * Use ADC to measure voltage OR simply digital input threshold
+
+Stupid pin numbering on ZXCT10009!
+    Fix:
+       * Fix stupid pin numbering
+    Workaround:
+       * Resolder SOT-23 in funky way
