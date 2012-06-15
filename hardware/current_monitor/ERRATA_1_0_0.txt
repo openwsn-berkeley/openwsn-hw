@@ -10,3 +10,18 @@ Stupid pin numbering on ZXCT10009!
        * Fix stupid pin numbering
     Workaround:
        * Resolder SOT-23 in funky way
+
+Quiescent current of NX1117C is 5mA, minimum current is 0.8mA!
+    Fix:
+	* Replace with lower power regulator
+    Workaround:
+	* Try to do differential power analysis?
+	* We can test low-current circuit by not populating daughter card
+
+TX pin does not survive if daughter card is separated!
+    Fix:
+        Route it correctly
+    Workaround:
+        solder TX pin to pin on PIC or keep other board connected
+        
+    
