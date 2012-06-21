@@ -84,7 +84,7 @@
 <text x="7.366" y="7.62" size="1.27" layer="25">JTAG</text>
 <text x="13.97" y="0.254" size="1.27" layer="25" rot="R90">USB</text>
 <text x="5.588" y="7.112" size="1.27" layer="25" rot="R180">E</text>
-<text x="5.588" y="5.588" size="1.27" layer="25" rot="R180">R</text>
+<text x="5.588" y="5.588" size="1.27" layer="25" rot="R180">F</text>
 <text x="5.334" y="4.064" size="1.27" layer="25" rot="R180">S</text>
 <text x="5.334" y="2.54" size="1.27" layer="25" rot="R180">D</text>
 </plain>
