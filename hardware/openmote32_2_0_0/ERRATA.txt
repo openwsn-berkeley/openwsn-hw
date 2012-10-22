@@ -1,0 +1,13 @@
+ERRATA for openmote32_2_0_0
+----------------------------
+Netlist errors:
+    No connection from USB-5V to VIN
+
+
+Assembly/BOM Errors:
+    * Neither antenna selected by popping 0-ohm resistor
+    * No LEDs
+    * No K20
+    * No 32KHz crystal
+    * Headers on wrong side
+    * Solder shorts on radio are OK since they are connected anyway
