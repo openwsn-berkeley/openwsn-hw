@@ -45,8 +45,8 @@ Diagnostics:
     - 32KHz Crystal [ ??? ] ( last I heard Xavi was trying to use onboard capacitors )
     
 Performance:
-    - Power consumption tested during stack running
-    - Radio power output on signal analyzer
+    - Power consumption tested during stack running [???]
+    - Radio power output on signal analyzer [???]
     
     
         
