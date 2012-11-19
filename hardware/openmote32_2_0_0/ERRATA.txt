@@ -1,0 +1,52 @@
+ERRATA for openmote32_2_0_0
+----------------------------
+Netlist errors:
+    No connection from USB-5V to VIN
+    JTAG Reset should go to chip reset instead of TRST
+
+Assembly/BOM Errors:
+    * Neither antenna selected by popping 0-ohm resistor
+    * No LEDs
+    * No K20
+    * No 32KHz crystal
+    * Headers on wrong side
+    * Solder shorts on radio are OK since they are connected anyway
+    * L1 & L2 not ordered
+    * JTAG Pin 1 Indicator
+    
+    
+------------
+Diagnostics:
+    - XBee connections
+        - Power VIN/GND [PASS] ( including proper regulation by chip )
+        - DOUT/DIN      [FAIL] (soldering?)
+        - RESET         [???]  ( must be tested seperately )
+        - Pin 4         [???]  (normal GPIO)
+        - Pin [6-9]     [???]  (normal GPIO)
+        - Pin [11-13]   [???]  (normal GPIO)
+        - Pin [15-20]   [???]  (normal GPIO)
+        - VREF          [???] ( must be tested seperately )
+        
+    - JTAG Connection
+        - Programming test [PASS w/ fix] (fix needed- NRESET needs to be connected to CHIP reset)
+    
+    - USB connection
+        - Device powered [FAIL] ( no connection from VUSB to VIN )
+        - Bootloader test [???]
+        
+    - Radio
+        - TX / RX Test      [???] (implies SPI is working, radio components working)
+        - IRQ connected     [???]
+        - SLP_TR connected  [???]
+        - #RST connected    [???]
+    
+    - LEDs [ PASS ] (all turn on)
+    
+    - 32KHz Crystal [ ??? ] ( last I heard Xavi was trying to use onboard capacitors )
+    
+Performance:
+    - Power consumption tested during stack running [???]
+    - Radio power output on signal analyzer [???]
+    
+    
+        
