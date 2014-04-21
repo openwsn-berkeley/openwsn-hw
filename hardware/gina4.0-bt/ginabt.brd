@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1925,7 +1925,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2292,8 +2292,6 @@ design rules under a new name.</description>
 <wire x1="8.5" y1="5.55" x2="9.07" y2="5.55" width="0.127" layer="1"/>
 <wire x1="9.07" y1="7.05" x2="8.5" y2="7.05" width="0.127" layer="1"/>
 <wire x1="8.5" y1="7.05" x2="8.5" y2="5.55" width="0.127" layer="1"/>
-<wire x1="15" y1="10.3" x2="14.7" y2="10.3" width="0.127" layer="16"/>
-<wire x1="14.7" y1="10.3" x2="14.7" y2="11.5" width="0.127" layer="16"/>
 <wire x1="1.69" y1="11.7" x2="0.5" y2="11.7" width="0.127" layer="16"/>
 <wire x1="0.5" y1="11.7" x2="0.5" y2="6.65" width="0.127" layer="16"/>
 <wire x1="1" y1="6.65" x2="0.5" y2="6.65" width="0.127" layer="16"/>
